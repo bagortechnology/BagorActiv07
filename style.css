@@ -1,0 +1,107 @@
+body {
+    width: 100%;
+    margin: 0;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(#20bf92,#01BAEF);
+    padding-top: 50px;
+    padding-bottom: 150px;
+    padding-left: 300px;
+    padding-right: 300px;
+
+}
+
+fieldset {
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    font-family: Arial;
+    width: 280px;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+legend {
+    text-align: center;
+    font-size: 17px;
+    font-weight:bold;
+    color:azure;
+
+}
+
+input[type="text"] {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+
+input[type="email"] {
+    display: flex;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+input[type="password"] {
+    display: flex;
+    border-radius: 10px;
+    text-align: center;
+    justify-items: center;
+    padding: 5px;
+}
+
+input[type="number"] {
+    display: flex;
+    border-radius: 10px;
+    text-align: center;
+    justify-items: center;
+    padding: 5px;
+}
+
+select {
+    border-radius: 5px;
+    align-items: center;
+    padding: 5px;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#01BAEF;
+    border-color: antiquewhite;
+    color: white;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 17px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+.button-class {
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover {
+    background-image: linear-gradient(#20bf92,#01BAEF);
+    transform: scale(1.1);
+    color: black;
+}
+
+label {
+    font-size: 15px;
+    font-weight: bold;
+}
